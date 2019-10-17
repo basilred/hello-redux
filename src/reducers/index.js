@@ -1,1 +1,5 @@
-export default state => state;
+export default (state, action) => {
+  console.log(action);
+
+  return state;
+};
